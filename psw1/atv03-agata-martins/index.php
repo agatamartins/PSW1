@@ -18,8 +18,8 @@
 
     <div class="barra-nav">
         <ul>
-            <li><a href="http://localhost:8081/atv03-paulo-wisniewski/cadaluno.php">Cadastro de aluno</a></li>
-            <li><a href="http://localhost:8081/atv03-paulo-wisniewski/listaaluno.php">Lista de aluno</a></li>
+            <li><a href="http://localhost:8081/atv03-agata-martins/cadaluno.php">Cadastro de aluno</a></li>
+            <li><a href="http://localhost:8081/atv03-agata-martins/listaalunos.php">Lista de aluno</a></li>
         </ul>
 
     </div>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="rodape">
-        <h5 id="cop" >© 2024 - TODOS OS DIREITOS RESERVADOS A ÁGATA  CRISTINI TEIXEIRA MARTINS</h5>
+        <h5 id="cop" >© 2024 - TODOS OS DIREITOS RESERVADOS POR ÁGATA  CRISTINI TEIXEIRA MARTINS</h5>
         
     </div>
     

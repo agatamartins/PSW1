@@ -36,7 +36,7 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(to right, #f1a8cc, #f1a8cc 50%, #f1a8cc);
+    background-image: linear-gradient(to right, #a8bff1, #a8bff1 50%, #a8bff1);
 }
 
 ul{
@@ -56,7 +56,7 @@ li a{
 }
 
 li a:hover{
-    color:#d1d1d1
+    color:#dfdddd
 }
 
 h2{
@@ -78,7 +78,7 @@ h2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    color: black;
+    color: #000000;
 }
 
 #p{
@@ -99,19 +99,19 @@ h2{
 #alunoti{
     width: 80%;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 10px;
 }
 
 #alunosti{
     width: 80%;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 10px;
 }
 
 .rodape{
-    background-image: linear-gradient(to right, #f1a8cc, #f1a8cc 50%, #f1a8cc);
+    background-image: linear-gradient(to right, #a8bff1, #a8bff1 50%, #a8bff1);
     height: 70px;
     width: 100%;
     margin-top: 50px;
@@ -123,20 +123,11 @@ h5{
     color: #000000;
 }
 
-#logo-git{
-    height: 50px;
-    margin-left: 90%;
-    margin-top: -200px;
-}
-
-#logo-git:hover{
-    height: 55px;
-}
 
 /*Estilização da Página cadaluno.php*/
 
 .titulo-2{
-    background-color: rgb(225, 225, 225);
+    background-color: #eee9e9;
     height: 100px;
     text-align: center;
     align-content: center;
@@ -144,12 +135,12 @@ h5{
     width: 80%;
     margin-left: 10%;
     margin-top: 50px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #titulo-cad{
-    color: black;
+    color: #000000;
 }
 
 .formulario{
@@ -159,7 +150,7 @@ h5{
 .formulario-esquerda{
     width: 40%;
     height: 600px;
-    background-color: rgb(225, 225, 225);
+    background-color: #eee9e9;
     display: flex;
     flex-direction: column;
     margin-left: 10%;
@@ -169,7 +160,7 @@ h5{
 .formulario-direita{
     width: 40%;
     height: 600px;
-    background-color: rgb(225, 225, 225);
+    background-color: #eee9e9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,7 +171,7 @@ h5{
 }
 
 input{
-    border: solid 1px black;
+    border: solid 1px #000000;
 }
 
 input[type=text], [type=email]{
@@ -203,12 +194,12 @@ input[type=date], [type=password]{
 select{
     text-align: center;
     padding: 3px;
-    border: solid 1px black;
+    border: solid 1px #000000;
 }
 
 label{
     margin-top: 15px;
-    color: black;
+    color: #000000;
     font-size: 16px;
 }
 
@@ -222,7 +213,7 @@ ul{
 
 .botao{
     width: 80%;
-    background-color: rgb(225, 225, 225);
+    background-color: #ecedf0;
     height: 100px;
     margin-left: 10%;
     text-align: center;
@@ -232,12 +223,12 @@ ul{
 button{
     padding: 10px 20px;
     margin: 15px;
-    background-color: #f1a8cc;
+    background-color: #a8bff1;
     font-size: 16px;
 }
 
 button:hover{
-    background-color: #f1a8cc;
+    background-color: #a8bff1;
     color: white;
     cursor: pointer;
 }
@@ -264,7 +255,7 @@ th, td{
 }
     
 th{
-    background-color: #f1a8cc;
+    background-color: #a8bff1;
 }
     
 tr{

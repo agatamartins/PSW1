@@ -10,7 +10,7 @@
     <div class="container">
         <header>
             <h1><a href="index.php">Sistema Aluno</a></h1>
-            <img src="img1.png" alt="">
+            <img src="imagens/img1.png" alt="">
         </header>
 
         <nav>
@@ -26,10 +26,11 @@
                 </div>
                 <div class="imagens">
                     <div class="img">
-                        <img src="img2.jpg" alt="">
+
+                        <img src="imagens\img2.jpg" alt="">
                     </div>
                     <div class="img">
-                        <img src="img3.jpeg" alt="">
+                        <img src="imagens/img3.jpeg" alt="">
                     </div>
                 </div>
             </section>

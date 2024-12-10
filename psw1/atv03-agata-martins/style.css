@@ -36,7 +36,7 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(to right, #a8caf1, #a8caf1 50%, #a8caf1);
+    background-image: linear-gradient(to right, #f1a8cc, #f1a8cc 50%, #f1a8cc);
 }
 
 ul{
@@ -111,7 +111,7 @@ h2{
 }
 
 .rodape{
-    background-image: linear-gradient(to right, #a8caf1, #a8caf1 50%, #a8caf1);
+    background-image: linear-gradient(to right, #f1a8cc, #f1a8cc 50%, #f1a8cc);
     height: 70px;
     width: 100%;
     margin-top: 50px;
@@ -232,12 +232,12 @@ ul{
 button{
     padding: 10px 20px;
     margin: 15px;
-    background-color: rgb(49, 212, 27);
+    background-color: #f1a8cc;
     font-size: 16px;
 }
 
 button:hover{
-    background-color: rgb(20, 100, 15);
+    background-color: #f1a8cc;
     color: white;
     cursor: pointer;
 }
@@ -264,7 +264,7 @@ th, td{
 }
     
 th{
-    background-color: rgb(118, 143, 82);
+    background-color: #f1a8cc;
 }
     
 tr{

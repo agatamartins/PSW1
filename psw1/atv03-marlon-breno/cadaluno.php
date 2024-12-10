@@ -1,3 +1,33 @@
+<?php
+session_start(); 
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $aluno = [
+        'nome' => $_POST['nome'],
+        'endereco' => $_POST['endereco'],
+        'bairro' => $_POST['bairro'],
+        'cidade' => $_POST['cidade'],
+        'uf' => $_POST['uf'],
+        'cpf' => $_POST['cpf'],
+        'celular' => $_POST['celular'],
+        'zap' => $_POST['zap'],
+        'datanascimento' => $_POST['nascimento'],
+        'disciplinascursadas' => $_POST['cursadas'],
+        'disciplinaspreferidas' => $_POST['preferidas']
+    ];
+
+    if (!isset($_SESSION['alunos'])) {
+        $_SESSION['alunos'] = [];
+    }
+    $_SESSION['alunos'][] = $aluno;
+
+    header('Location: listaluno.php');
+    exit;
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -48,7 +48,8 @@
     <th>Disciplina Preferida</th>
 </tr>
 <tr>
-    <td> <?php echo $_POST['aluno']; ?></td>
+    <td> <?php echo $_POST['nome do aluno']; ?></td>
+    <td><?php echo $_POST['email']; ?></td>
     <td><?php echo $_POST['end']; ?></td>
     <td><?php echo $_POST['bai']; ?></td>
     <td><?php echo $_POST['cidade']; ?></td>

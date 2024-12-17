@@ -10,19 +10,19 @@
 
     <div class="cabecalho">
         <img id="logo-psw" src="imagens/image.png" alt="">
-        <h1>Sistema Aluno</h1>
+        <h1>Cadastro de Aluno</h1>
         <img id="logo-if" src="imagens/IF Baiano - Logo.png" alt="">
     </div>
 
     <div class="barra-nav">
         <ul>
             <li><a href="http://localhost:8081/atv03-agata-martins/index.php">Home</a></li>
-            <li><a href="http://localhost:8081/atv03-paulo-wisniewski/listaaluno.php">Lista de aluno</a></li>
+            <li><a href="http://localhost:8081/atv03-agata-martins/listaalunos.php">Lista de aluno</a></li>
          </ul>
     </div>
 
     <div class="titulo-2">
-        <h2 id="titulo-cad" >Cadastro de Aluno</h2>
+        <h2 id="titulo-cad" >Cadastro</h2>
     </div>
 
 <form action="listaaluno.php" method="post">

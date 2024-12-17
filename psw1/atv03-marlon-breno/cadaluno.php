@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h2>Cadastro de aluno</h2>
 
     <div class="formulario">
-    <form action="listaluno.php" method="POST">
+    <form action="cadaluno.php" method="POST">
         
     <label for="nome">Nome completo</label>
     <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>

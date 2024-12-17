@@ -1,3 +1,8 @@
+<?php
+session_start(); 
+$alunos = isset($_SESSION['alunos']) ? $_SESSION['alunos'] : [];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,27 +40,25 @@
             <th>Disciplinas cursadas</th>
             <th>Disciplinas preferidas</th>
         </tr>
-
+        <?php foreach ($alunos as $aluno): ?>
         <tr>
-            <td><?php echo $_POST['nome']?></td>
-            <td><?php echo $_POST['endereco']?></td>
-            <td><?php echo $_POST['bairro']?></td>
-            <td><?php echo $_POST['cidade']?></td>
-            <td><?php echo $_POST['uf']?></td>
-            <td><?php echo $_POST['cpf']?></td>
-            <td><?php echo $_POST['celular']?></td>
-            <td><?php echo $_POST['zap']?></td>
-            <td><?php echo $_POST['nascimento']?></td>
-            <td><?php echo $_POST['cursadas']?></td>
-            <td><?php echo $_POST['preferidas']?></td>
+            <td><?php echo $aluno['nome']; ?></td>
+            <td><?php echo $aluno['endereco']; ?></td>
+            <td><?php echo $aluno['bairro']; ?></td>
+            <td><?php echo $aluno['cidade']; ?></td>
+            <td><?php echo $aluno['uf']; ?></td>
+            <td><?php echo $aluno['cpf']; ?></td>
+            <td><?php echo $aluno['celular']; ?></td>
+            <td><?php echo $aluno['zap']; ?></td>
+            <td><?php echo $aluno['datanascimento']; ?></td>
+            <td><?php echo $aluno['disciplinascursadas']; ?></td>
+            <td><?php echo $aluno['disciplinaspreferidas']; ?></td>
         </tr>
+        <?php endforeach; ?>
+    </table>
 
-
-    
-</table>
-        <footer>
-            <h3>Desenvolvido por Marlon Breno Navarro</h3>
-        </footer>
-    
+    <footer>
+        <h3>Desenvolvido por Marlon Breno Navarro</h3>
+    </footer>
 </body>
 </html>

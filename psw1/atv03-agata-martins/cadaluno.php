@@ -25,7 +25,7 @@
         <h2 id="titulo-cad" >Cadastro</h2>
     </div>
 
-<form action="listaaluno.php" method="post">
+<form action="listaalunos.php" method="post">
     <div class="formulario">
         <div class="formulario-esquerda">
             <label for="nome">Nome Completo: </label>

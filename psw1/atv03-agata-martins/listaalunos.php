@@ -48,20 +48,20 @@
     <th>Disciplina Preferida</th>
 </tr>
 <tr>
-    <td> <?php echo $_POST['nome do aluno']; ?></td>
+    <td> <?php echo $_POST['nome']; ?></td>
     <td><?php echo $_POST['email']; ?></td>
-    <td><?php echo $_POST['end']; ?></td>
-    <td><?php echo $_POST['bai']; ?></td>
+    <td><?php echo $_POST['endereco']; ?></td>
+    <td><?php echo $_POST['bairro']; ?></td>
     <td><?php echo $_POST['cidade']; ?></td>
     <td><?php echo $_POST['estado']; ?></td>
     <td><?php echo $_POST['genero']; ?></td>
     <td><?php echo $_POST['cpf']; ?></td>
-    <td><?php echo $_POST['whatsapp']; ?></td>
-    <td><?php echo $_POST['tele']; ?></td>
-    <td><?php echo $_POST['data-nas']; ?></td>
-    <td><?php echo $_POST['estado-civil']; ?></td>
+    <td><?php echo $_POST['zap']; ?></td>
+    <td><?php echo $_POST['telefone']; ?></td>
+    <td><?php echo $_POST['nascimento']; ?></td>
+    <td><?php echo $_POST['estadocivil']; ?></td>
     <td><?php echo $_POST['turma']; ?></td>
-    <td><?php echo $_POST['disciplina preferida']; ?></td>
+    <td><?php echo $_POST['disciplinapreferida']; ?></td>
 </tr>
 <tr>
     
